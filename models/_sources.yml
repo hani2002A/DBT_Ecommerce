@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: ecommerce_src
+    database: ECOMMERCE_DEMO
+    schema: RAW_ECOMMERCE
+    tables:
+      - name: Raw_customers
+      - name: Raw_products
+      - name: Raw_orders
+      - name: Raw_order_items
+      - name: Raw_payments
